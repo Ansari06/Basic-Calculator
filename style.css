@@ -1,0 +1,76 @@
+*{
+	background: #fff9f9;
+	margin: 0;
+	padding: 0;
+}
+.calc {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff9f9;
+	box-shadow: 0 6px 20px 0 rgba(0,0,0,0.2);
+	border-radius: 15px;
+	padding-bottom: 20px;
+	width: 320px;	
+}
+.output {
+	width: 100%;
+	height: 60px;
+	padding: 40px 0;
+	background: #ed0758c5;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.btn {
+	padding: 20px 20px 0 20px;
+}
+.rows {
+	width: 280px;
+	float: left;
+}
+input[type=button] {
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding: 0;
+	margin: 5px;
+	box-sizing: border-box;
+	background: #ecedef;
+	border: none;
+	font-size: 30px;
+	line-height: 30px;
+	border-radius: 10%;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.716);
+	cursor: pointer;
+}
+input[type=text] {
+	width: 270px;
+	height: 60px;
+	float: left;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	color: #ffffff;
+	text-align: right;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0 27px;
+}
+::placeholder {
+    color: #ffff;
+    opacity: 0.85;
+  }
+#clear{
+	width: 130px;
+	background-color: rgba(128, 128, 128, 0.268);	
+}  
+#spec{
+    background-color: rgba(128, 128, 128, 0.268);
+}
+#equal{
+    background-color: #ed0758c5;
+}
